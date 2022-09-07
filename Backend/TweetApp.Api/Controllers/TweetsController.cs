@@ -173,6 +173,13 @@ namespace TweetApp.Api.Controllers
 
         #region Helper Endpoints
 
+        [HttpGet("health")]
+        [AllowAnonymous]
+        public  string Health()
+        {
+            return "healthy";
+        }
+
         [HttpGet("details/{id}")]
         public async Task<object> GetATweet(int id)
         {

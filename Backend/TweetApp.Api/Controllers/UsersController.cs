@@ -154,6 +154,12 @@ namespace TweetApp.Api.Controllers
 
         #region Helper Endpoints
 
+        [HttpGet("user/health")]
+        [AllowAnonymous]
+        public string Health()
+        {
+            return "healthy";
+        }
         [HttpGet("currentuser")]
         public async Task<object> GetCurrentUser()
         {
