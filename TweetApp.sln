@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetApp.Service", "Backend
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F254BD92-8100-416F-86D8-3589B6786D02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{F662BC60-88E8-47BE-8ABA-743620173234}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "tweetapp", "..\..\UseCase - Final\FrontEnd\tweetapp\tweetapp.esproj", "{E92C2F9A-B9AE-4273-B80B-611DF4486B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,12 @@ Global
 		{F254BD92-8100-416F-86D8-3589B6786D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F254BD92-8100-416F-86D8-3589B6786D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F254BD92-8100-416F-86D8-3589B6786D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +63,7 @@ Global
 		{BFF17749-B922-45B6-9334-F53E3F5CF289} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
 		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
 		{5DA53D88-2205-4267-9969-5F1DBE35D374} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
+		{E92C2F9A-B9AE-4273-B80B-611DF4486B42} = {F662BC60-88E8-47BE-8ABA-743620173234}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00803BDC-38F8-4774-BA13-C287C89AA30A}

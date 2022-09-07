@@ -78,7 +78,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong!";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
@@ -102,7 +102,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong while updating tweet! Please try again later.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
@@ -126,7 +126,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong while deleting tweet! Please try again later.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
@@ -145,7 +145,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong while replying the tweet! Please try again later.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
@@ -165,7 +165,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong while replying the tweet! Please try again later.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
@@ -198,7 +198,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong while displaying the tweet! Please try again later.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
         [HttpGet("replies")]
@@ -217,7 +217,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
         [HttpGet("reactions")]
@@ -236,7 +236,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong.";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
         #endregion
