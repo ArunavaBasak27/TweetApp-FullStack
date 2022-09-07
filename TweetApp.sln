@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{A0C0CB96-05C1-4728-B873-DD954B842189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetApp.Api", "Backend\TweetApp.Api\TweetApp.Api.csproj", "{7BF409C0-0474-405C-B104-351892C1736D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetApp.Model", "Backend\TweetApp.Model\TweetApp.Model.csproj", "{BFF17749-B922-45B6-9334-F53E3F5CF289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetApp.Repository", "Backend\TweetApp.Repository\TweetApp.Repository.csproj", "{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TweetApp.Service", "Backend\TweetApp.Service\TweetApp.Service.csproj", "{5DA53D88-2205-4267-9969-5F1DBE35D374}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F254BD92-8100-416F-86D8-3589B6786D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF409C0-0474-405C-B104-351892C1736D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF409C0-0474-405C-B104-351892C1736D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF409C0-0474-405C-B104-351892C1736D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF409C0-0474-405C-B104-351892C1736D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF17749-B922-45B6-9334-F53E3F5CF289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF17749-B922-45B6-9334-F53E3F5CF289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF17749-B922-45B6-9334-F53E3F5CF289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF17749-B922-45B6-9334-F53E3F5CF289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA53D88-2205-4267-9969-5F1DBE35D374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA53D88-2205-4267-9969-5F1DBE35D374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA53D88-2205-4267-9969-5F1DBE35D374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA53D88-2205-4267-9969-5F1DBE35D374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F254BD92-8100-416F-86D8-3589B6786D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F254BD92-8100-416F-86D8-3589B6786D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F254BD92-8100-416F-86D8-3589B6786D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F254BD92-8100-416F-86D8-3589B6786D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B532D82B-6B6B-4FBF-B4F9-FB18967EAC78} = {A0C0CB96-05C1-4728-B873-DD954B842189}
+		{7BF409C0-0474-405C-B104-351892C1736D} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
+		{BFF17749-B922-45B6-9334-F53E3F5CF289} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
+		{A8F1F945-F4EA-4F9A-9492-62EB95DBDEBC} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
+		{5DA53D88-2205-4267-9969-5F1DBE35D374} = {B532D82B-6B6B-4FBF-B4F9-FB18967EAC78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00803BDC-38F8-4774-BA13-C287C89AA30A}
+	EndGlobalSection
+EndGlobal
