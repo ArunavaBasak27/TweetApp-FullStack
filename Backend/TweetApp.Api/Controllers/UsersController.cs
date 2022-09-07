@@ -120,7 +120,7 @@ namespace TweetApp.Api.Controllers
                 _response.DisplayMessage = "Something went wrong!";
                 _response.ErrorMessages = new List<string> { ex.Message };
             }
-            //_kafkaSender.Publish(_response.DisplayMessage);
+            _kafkaSender.Publish(_response.DisplayMessage);
             return _response;
         }
 
